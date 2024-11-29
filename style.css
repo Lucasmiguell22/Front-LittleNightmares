@@ -1,0 +1,334 @@
+
+body {
+    margin: 0;
+    display: block;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-image: url("../imagens/image.png");
+    background-size: cover; 
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   font-family:'amatic', Times, serif;
+   font-size: 66px;
+  
+}
+
+h3 {
+    font-family:'amatic', Times, serif;
+   font-size: 66px;
+}
+
+p {
+    font-family:'amatic', Times, serif;
+   font-size: 26px;
+  
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family:'amatic', Times, serif;
+    font-size: 36px;
+   
+ }
+@font-face {
+    font-family:'amatic';
+    src: url('../fontes/AmaticSC-Regular.ttf');
+   }
+
+.button{
+    width: 100px;
+    height: 50px;
+    font-family:'amatic', Times, serif;
+    font-size: 30px;
+    background-color: rgb(55, 173, 196);
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+button a {
+    color: white;
+    
+    text-decoration: none;
+}
+.buttom{
+    width: 100px;
+    height: 50px;
+    font-family:'amatic', Times, serif;
+    font-size: 30px;
+    background-color: rgb(55, 173, 196);
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.buttom a {
+    color: white;
+    
+    text-decoration: none;
+}
+.buttom-lanterna{
+    width: 100px;
+    height: 50px;
+    font-family:'amatic', Times, serif;
+    font-size: 30px;
+    background-color: rgb(55, 173, 196);
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.buttom-lanterna a {
+    color: white;
+    
+    text-decoration: none;
+}
+
+form {
+    height: 150px;
+    font-family:'amatic', Times, serif;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+
+}
+#senha {
+    margin-top: 5px;
+}
+
+footer {
+    color: white;
+}
+
+.card {
+    font-size: 30px;
+    font-family:'amatic', Times, serif;
+    width: 240px;
+    height: 650px;
+    border: 1px 0 0 1px solid white;
+    border-radius: 8px;
+    box-shadow:  1px 1px 1px 1px lightgray;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 130px;
+}
+
+
+.preco {
+    font-size: 80px;
+    font-family:'amatic', Times, serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: white
+}
+
+.card img {
+    width: 160px;
+}
+
+#lancamentos, #ofertas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+#redes img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+#redes ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#redes li {
+    margin: 20px;
+    list-style-type: none;
+    height: 32px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#redes li a {
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 32px;
+    width: 120px;
+}
+
+address {
+    padding-bottom: 40px;
+    text-align: center;
+    font-family:'amatic', Times, serif;
+    font-size: 30px;
+}
+
+#produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;      
+}
+
+#fotos-produto img {
+    height: 520px;
+    width: 100%;
+    border-radius: 6px;    
+}
+
+#fotos-miniatura {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+    gap: 12px;
+}
+
+#fotos-miniatura img {
+    width: 104px;
+    height: 104px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#dados-produto {
+    width: 60%;
+    margin: 40px;
+}
+
+#dados-produto h3 {
+    font-size: 42px;
+    margin-bottom: 20px;   
+}
+
+#dados-produto p {
+    font-size: 24px;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tamanho {
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.quantidade input {
+    width: 50px;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 6px;
+}
+
+.quantidade button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.imagem-selecionada {
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+}
+
+.six {
+    width:50px;
+    height: 46px;
+    margin-left: 1200px;
+}
+.six2 {
+    width:50px;
+    height: 46px;
+    margin-left: 100px;
+}
+.indexx img{
+    width: 150px;
+    height: 150px;
+   
+
+}
+
+
+
+nav ul li {
+    color: white;  
+    font-size: 20px;
+    list-style-type: none; /* remove o marcador (bolinha) do item */
+    width: 160px;
+    height: 50px;
+    border: 1px solid white;
+    text-align: center; /* centraliza horizontalmente o texto */
+    line-height: 50px; /* define a altura da linha de texto */
+    vertical-align: middle; /* centraliza verticalmente o conteúdo */
+    border-radius: 5px;
+
+}
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    width: 160px;
+    height: 50px;
+    display: inline-block; /* permite o redimensionamento do elemento "a" */
+    color: white;
+    text-decoration: none; /* remove o underline (sublinhado) padrão do link */
+}
+
+/* a:hover indica que este estilo será aplicado quando o mouse for
+   colocado em cima o link */
+nav a:hover {
+    color: rgb(44, 0, 139);
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-lanterna img {
+    width: 200px;
+}
